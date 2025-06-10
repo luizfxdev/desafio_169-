@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogos do Destino</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Jogos do Destino</h1>
+      <p class="subtitle">O Mistério das Pedras Mágicas</p>
+
+      <div class="input-group">
+        <div class="input-field">
+          <label for="stoneA">Pedra A</label>
+          <input type="number" id="stoneA" placeholder="Valor da pedra A" />
+        </div>
+        <div class="input-field">
+          <label for="stoneB">Pedra B</label>
+          <input type="number" id="stoneB" placeholder="Valor da pedra B" />
+        </div>
+        <div class="input-field">
+          <label for="stoneC">Pedra C</label>
+          <input type="number" id="stoneC" placeholder="Valor da pedra C" />
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button id="decipherBtn">DECIFRAR</button>
+        <button id="returnBtn">RETORNAR</button>
+      </div>
+      <br />
+      <br />
+      <div class="result-container">
+        <h2>Resultado:</h2>
+        <div id="calculation"></div>
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
